@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Goldman', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1250;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 10px;
+}
